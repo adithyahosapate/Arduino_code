@@ -51,13 +51,13 @@ void loop()
 
 void display_time(int *digit)
 {
- for(int i=0;i<20;i++)
+ for(int i=0;i<83;i++)
 {
   for(int digit_i=8;digit_i<14;digit_i++)
   {
       digitalWrite(digit_i,1);
       Num_Write(digit[digit_i-8]);
-            delay(50/6);
+            delay(2);
 
       digitalWrite(digit_i,0);
 
