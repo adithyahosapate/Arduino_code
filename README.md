@@ -1,2 +1,2 @@
 # Arduino_code
-This repository contains the code for various arduino projects
+This repository contains the code for various arduino projects.
